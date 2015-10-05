@@ -2,14 +2,16 @@
 //
 
 #include "stdafx.h"
-#include "PalindromeNumber.h"
-#include "LongestCommonPrefix.h"
-
-#include "3SumClosest.h"
-#include "RemoveNthNodeFromEndofList.h"
-#include "ValidParentheses.h"
-#include "ImplementstrStr().h"
-#include "RotateArray.h"
+//#include "PalindromeNumber.h"
+//#include "LongestCommonPrefix.h"
+//
+//#include "3SumClosest.h"
+//#include "RemoveNthNodeFromEndofList.h"
+//#include "ValidParentheses.h"
+//#include "ImplementstrStr().h"
+//#include "RotateArray.h"
+#include "InsertionSortList.h"
+#include "IntersectionofTwoLinkedLists.h"
 #include "iostream"
 using namespace std;
 //#include "3Sum.h"
@@ -61,11 +63,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	char* r = "a";
 	cout<<strStr(l, r);
 	*/
-	int a[] = {1 ,2 ,3};
-	rotate( a ,3 ,1 );
-	for(int i = 0; i<3 ;i++){
-		std::cout<<a[i]<<std::endl;
-	}
+
+
+	//int a[] = {1 ,2 ,3};
+	//rotate( a ,3 ,1 );
+	//for(int i = 0; i<3 ;i++){
+	//	std::cout<<a[i]<<std::endl;
+	//}
+
+	//insertionSortListWrap islw;
+	//islw.run();
+	IntersectionofTwoLinkedListsWrap itlw;
+	itlw.run();
+
 	
 
 	return 0;

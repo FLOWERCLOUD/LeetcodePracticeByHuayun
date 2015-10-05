@@ -5,11 +5,7 @@
  *     struct ListNode *next;
  * };
  */
-struct ListNode {
-	int val;
-	struct ListNode *next;
-};
-typedef struct ListNode  ListNode;
+#include "structuredef.h"
  int getListLen(ListNode* list){
      if(NULL == list)return 0;
 	 ListNode* head = list;

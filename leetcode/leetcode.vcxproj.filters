@@ -48,6 +48,15 @@
     <ClInclude Include="RotateArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="InsertionSortList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structuredef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectionofTwoLinkedLists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

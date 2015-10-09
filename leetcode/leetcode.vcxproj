@@ -87,6 +87,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="structuredef.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="treetraversal.h" />
     <ClInclude Include="ValidParentheses.h" />
   </ItemGroup>
   <ItemGroup>

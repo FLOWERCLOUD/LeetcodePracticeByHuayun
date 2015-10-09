@@ -12,6 +12,7 @@
 //#include "RotateArray.h"
 #include "InsertionSortList.h"
 #include "IntersectionofTwoLinkedLists.h"
+#include "treetraversal.h"
 #include "iostream"
 using namespace std;
 //#include "3Sum.h"
@@ -73,10 +74,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//insertionSortListWrap islw;
 	//islw.run();
-	IntersectionofTwoLinkedListsWrap itlw;
-	itlw.run();
-
-	
+	//IntersectionofTwoLinkedListsWrap itlw;
+	//itlw.run();
+	TreeTraversalSolution tts;
+	tts.run();
 
 	return 0;
 }

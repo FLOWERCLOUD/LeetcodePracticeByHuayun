@@ -60,6 +60,15 @@
     <ClInclude Include="treetraversal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="generateParenthese.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Happy Number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reverselistwithval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

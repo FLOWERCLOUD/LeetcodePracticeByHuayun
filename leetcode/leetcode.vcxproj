@@ -77,12 +77,15 @@
   <ItemGroup>
     <ClInclude Include="3Sum.h" />
     <ClInclude Include="3SumClosest.h" />
+    <ClInclude Include="generateParenthese.h" />
+    <ClInclude Include="Happy Number.h" />
     <ClInclude Include="ImplementstrStr().h" />
     <ClInclude Include="InsertionSortList.h" />
     <ClInclude Include="IntersectionofTwoLinkedLists.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="PalindromeNumber.h" />
     <ClInclude Include="RemoveNthNodeFromEndofList.h" />
+    <ClInclude Include="reverselistwithval.h" />
     <ClInclude Include="RotateArray.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="structuredef.h" />

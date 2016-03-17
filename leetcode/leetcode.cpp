@@ -13,6 +13,8 @@
 #include "InsertionSortList.h"
 #include "IntersectionofTwoLinkedLists.h"
 #include "treetraversal.h"
+#include "reverselistwithval.h"
+
 #include "iostream"
 using namespace std;
 //#include "3Sum.h"
@@ -76,8 +78,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	//islw.run();
 	//IntersectionofTwoLinkedListsWrap itlw;
 	//itlw.run();
-	TreeTraversalSolution tts;
-	tts.run();
+
+	//TreeTraversalSolution tts;
+	//tts.run();
+	int array[6] = {1 ,2 ,1,4, 5, 6};
+	ListNode* testlist = getListFromArray( array , 6);
+	coutList(testlist);
+	ListNode* result = reverseWithVal(testlist ,1);
+	coutList(result);
 
 	return 0;
 }
